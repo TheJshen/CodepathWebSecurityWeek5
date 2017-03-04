@@ -102,13 +102,19 @@ function pkey_decrypt($string, $private_key) {
 // Digital signatures using public/private keys
 
 function create_signature($data, $private_key) {
-  // A-Za-z : ykMwnXKRVqheCFaxsSNDEOfzgTpYroJBmdIPitGbQUAcZuLjvlWH
-  return 'RpjJ WQL BImLcJo QLu dQv vJ oIo Iu WJu?';
+  openssl_sign($data, $raw_signature, $private_key);
+
+  // Use base64_encode to make contents viewable/shareable
+  return base64_encode($raw_signature);
 }
 
 function verify_signature($data, $signature, $public_key) {
-  // Vigenère
-  return 'RK, pym oays onicvr. Iuw bkzhvbw uedf pke conll rt ZV nzxbhz.';
+  $raw_signature = base64_decode($signature);
+  $result = openssl_verify($data, $raw_signature, $public_key);
+  
+  // returns 1 if data and signature match
+  // returns 0 if data and signature do not match
+  return $result;
 }
 
 ?>

@@ -7,39 +7,54 @@ Time spent: **X** hours spent in total
 The following **required** functionality is completed:
 
 1\. Symmetric Encrypt/Decrypt
-  * [ ]  Required: Repair the symmetric encrypt and decrypt code
+  * [X]  Required: Repair the symmetric encrypt and decrypt code
 
 2\. Encrypted Message 1
-  * [ ]  Required: Decrypt the government message
-  * [ ]  Required: Encrypt a response and include in this README
+  * [X]  Required: Decrypt the government message
+  * [X]  Required: Encrypt a response and include in this README
 
   NOzLKtQc/k1UPbLyypkRZ847bMucXN5saexYPZJoWOjbyc8Hj/6c9GgkVWe8GaxT
 
 3\. Generate Public-Private Keys
-  * [ ]  Required: Repair the key generator code
-  * [ ]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
+  * [X]  Required: Repair the key generator code
+  * [X]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
 
 4\. Asymmetric Encrypt/Decrypt
-  * [ ]  Required: Repair the asymmetric encrypt and decrypt code
+  * [X]  Required: Repair the asymmetric encrypt and decrypt code
 
 5\. Create/Verify Signature
-  * [ ]  Required: Repair the create and verify signature code
+  * [X]  Required: Repair the create and verify signature code
 
 6\. Encrypted Message 2
-  * [ ]  Required: Decrypt the message
-  * [ ]  Required: Verify the message
-  * [ ]  Required: Include a response message in this README
+  * [X]  Required: Decrypt the message
+  * [X]  Required: Verify the message
+  * [X]  Required: Include a response message in this README
+
+  Body: Ol35vzdTwKSslqGPzjTDYpfQscdQ95vVX55LtjCDJUCWGN7gc+lD8C9UeYpfrP0uB96Yqp8QbPT1+XIA0TPOlp/gtY/34kiJkxKkZ9m2Zxs3FNCSDnU7nj3YtyNhTmTj/VZENSvfHE801Xk8j77r1ZS9i3bjrupkOCxVWcWAHHQIBjhx3XdSVQJzAxrl7SSnkc9GbHd2yQ3HUE9bUHxfSySfLE5w2r1JWdNImAqZlGRtfk6zWOEgp/klyPoNGX7rgRHuz1+R1mAJfos8WKjBI5VxOsqrBH3n3kkxG2uxgaTu4FIpxCAHn5o3huZvLALBNDszgKY0S47+m5JLJv8nNQ==
+
+  -----BEGIN PUBLIC KEY-----
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAteUfp33gR+A1F4WTefj9
+  OGszvkzZxgc8Up8sMHkOufFVuBZugpNB8FZ+iO5iy/bMuezAxQQ1OWmXheEvhREe
+  iBmniRFmUXXKJagoyW5PFkJq05ur5uo7xxM0kJ+sKZJ18GR2F/D3s7mxwhV8Nn80
+  n4keHfeBr9rkG0uNPYlaQ/oNdtzI+GpLQ0stOtSUTLRG8fV8Ynt/w0m/JNrS7BGE
+  kx9eRVHkLAHrQ0Wu2TCI7t8NfZlYaZS1iTxXnrZ+G+pIYkIaGdKPIV1g6pmUgX/D
+  j2giDKb0ULlhkYyhl9pmJUEL15gouNVOwl/q7zMmAfDO4Gix+Xyg2jtzv99AvdxX
+  YwIDAQAB
+  -----END PUBLIC KEY-----
+
+  Signature:
+  XDU1K0VWlUohBPeK0s/ys+CLYoI9ju0COxa9O9Fte2mWT/HszpkN7zclH3hdYCX6zzpAN8hnI3227l0r76YyZWX7fgGAByXQqsBrK1/NjXOc0fOQy7sN7+HNpolDfOn01EwPhKIA2oc+wGukMAuaD+lWD9tqHWM8fpBrlzn+4Kf+DYUm3FYGaihRVWqBbwi+3n6SWL9nUAa2aHjA26cWvHRNjtlSUWZA8WAVmSXsEpzUKlb5N6kl49LPwT3awFbvdcAW2bCGyJSCM9ESRsVc2S0wUTyUy9pv/G6e8JGD6nV5DmogQaoJKlyDcCQTiBqBKroQdj4jpzKupcS4n7a44Q==
 
 7\. Agent Messages
-  * [ ]  Required: Repair the dropbox code
-  * [ ]  Required: Repair the messages area
-  * [ ]  Required: Display encrypted messages for all agents
-  * [ ]  Required: Messages indicate whether the message signature is valid
-  * [ ]  Required: Your messages are automatically decrypted
+  * [X]  Required: Repair the dropbox code
+  * [X]  Required: Repair the messages area
+  * [X]  Required: Display encrypted messages for all agents
+  * [X]  Required: Messages indicate whether the message signature is valid
+  * [X]  Required: Your messages are automatically decrypted
 
 8\. Identify the Double Agent
-  * [ ]  Required: Decrypt as many email messages as possible
-  * [ ]  Required: Identify the double agent: ____________________
+  * [X]  Required: Decrypt as many email messages as possible
+  * [X]  Required: Identify the double agent: Austin
 
 The following objectives are **optional**:
 
