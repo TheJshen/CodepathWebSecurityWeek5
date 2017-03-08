@@ -51,8 +51,16 @@
           $sender_result = find_agent_by_id($message['sender_id']);
           $sender = db_fetch_assoc($sender_result);
 
-          $message_text = pkey_decrypt($message['cipher_text'], $agent['private_key']);
-          $validity_text = verify_signature($message['cipher_text'], $message['signature'], $sender['public_key']);
+          if($current_user['id'] == $agent['id']) {
+            $message_text = pkey_decrypt($message['cipher_text'], $agent['private_key']);
+          } else {
+            $message_text = $message['cipher_text'];
+          }
+          if( verify_signature($message['cipher_text'], $message['signature'], $sender['public_key'])) {
+            $validity_text = "Valid";
+          } else {
+            $validity_text = "Invalid";
+          }
         ?>
         <tr>
           <td><?php echo h(strftime('%b %d, %Y at %H:%M', $created_at)); ?></td>
