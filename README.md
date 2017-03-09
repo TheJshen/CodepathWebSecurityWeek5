@@ -54,7 +54,7 @@ The following **required** functionality is completed:
 
 8\. Identify the Double Agent
   * [X]  Required: Decrypt as many email messages as possible
-  * [X]  Required: Identify the double agent: Austin
+  * [X]  Required: Identify the double agent: Natasha
 
 The following objectives are **optional**:
 
@@ -76,7 +76,7 @@ The following objectives are **optional**:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/7msnIdp.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/7msnIdp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
